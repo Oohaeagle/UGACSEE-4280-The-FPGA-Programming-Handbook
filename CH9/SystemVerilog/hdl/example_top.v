@@ -240,7 +240,7 @@ sys_pll u_sys_pll
   .clk_out2        (sys_clk_i),
   
   .clk_in1         (ext_clk),
-  .resetn          (sys_rst)
+  .reset          (sys_rst)
  );
 
  
